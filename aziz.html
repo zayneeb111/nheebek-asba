@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="aziz.css">
+    
+</head>
+<body>
+    <button class="show-popup">enzel asba</button>
+    <div class="popup-container">
+        <div class="popup-box">
+            <h1>HIIIIIIII</h1>
+            <p>WOULD YOU LIKE TO CONTINUE </p>
+            <button class="close-btn" ><a href="nhebek.html">OK (no other option :) </a></button>
+        </div>
+    </div>
+    <script>
+        const showPopup = document.querySelector('.show-popup');
+const popupContainer = document.querySelector('.popup-container');
+const closeBtn = document.querySelector('.close-btn');
+showPopup.onclick = () => {
+    popupContainer.classList.add('active');
+}
+
+    </script>
+
+</body>
+</html>
